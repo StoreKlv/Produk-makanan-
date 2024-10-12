@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Akun</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <h1>Daftar Akun Baru</h1>
+        <nav>
+            <ul>
+                <li><a href="login.html">Home</a></li>
+                <li><a href="products.html">Produk</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="register.html">Daftar</a></li>
+                <li><a href="settings.html">Pengaturan</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="register">
+        <h2>Buat Akun Baru</h2>
+        <form action="submit_register.php" method="POST">
+            <div class="input-group">
+                <label for="username">Nama</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Kata Sandi</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <button type="submit">Daftar</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Toko Makanan Lezat. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

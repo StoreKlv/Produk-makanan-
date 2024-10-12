@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengaturan Akun</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <header>
+        <h1>Pengaturan Akun</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Produk</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><a href="register.html">Daftar</a></li>
+                <li><a href="settings.html">Pengaturan</a></li> <!-- Tautan ke halaman pengaturan -->
+            </ul>
+        </nav>
+        <div class="contact-info">
+            <span>📞 0812-3456-7890</span>
+        </div>
+    </header>
+
+    <section class="settings">
+        <h2>Ubah Informasi Akun</h2>
+        <form action="submit_settings.php" method="POST">
+            <div class="input-group">
+                <label for="username">Nama</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Kata Sandi Baru</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="input-group">
+                <button type="submit">Simpan Perubahan</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Toko Makanan Lezat. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
